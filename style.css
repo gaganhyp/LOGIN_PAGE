@@ -1,0 +1,62 @@
+#logo{
+	margin-top: 30px;
+	font-size: 25px;
+	text-align: center;
+	font-style: bold;
+	font-color: black;
+	font-family: Arial,Helvetica,sans-serif;
+}
+
+body{
+	background-image: url("bck.jpg");
+}
+
+#center_frame{
+    overflow: auto;
+	width: 400px;
+    height: 600px;
+    position: absolute;
+    top: 50%;
+    left: 49%;
+    margin: -300px 0 0 -200px;
+	background-color: white;
+	border-radius: 10px;
+}
+
+$primary: #11998e;
+$secondary: #38ef7d;
+$white: #fff;
+$gray: #9b9b9b;
+.form__group {
+  position: relative;
+  padding: 15px 0 0;
+  margin-top: 10px;
+  width: 50%;
+}
+
+.form__field {
+  font-family: inherit;
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid $gray;
+  outline: 0;
+  font-size: 1.3rem;
+  color: $white;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+}
+
+#pwssd{
+	margin-left: 20%;
+	margin-top: 10%;
+}
+#uname{
+	margin-left: 20%;
+	margin-top: 10%;
+}
+
+#lin{
+	margin-left: 10%;
+	width: 80%;
+}
